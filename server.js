@@ -1,22 +1,19 @@
 import app from "./app.js";
 import { connectToDb } from "./src/db/connect.js";
 
-const PORT = process.env.PORT;
-
-if (!PORT) {
-  throw new Error("Error: PORT is not defined. Make sure your local npm script reference the .env file with --env-file=.env, or define the PORT in your hosted environment settings.");
-}
+const PORT = process.env.PORT || 3000;
 
 const startServer = async () => {
   try {
     await connectToDb();
 
     app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+      console.log(`Server is running on port ${PORT}`);
     });
-} catch (error) {
+  } catch (error) {
     console.error("Database connection failed:", error.message);
-    process.exit(1);}
+    process.exit(1);
+  }
 };
 
 await startServer();
