@@ -1,0 +1,65 @@
+# Week 01 Reflection
+
+1. Include a link to one of your Pull Requests (PRs) at GitHub. (It should be merged and closed at this point.)
+
+GitHub Pull Request Link: https://github.com/reXatrom/CSE341-books/pull/6
+
+
+
+2. Include a link to one of your Issues at GitHub. (It should be closed at this point.)
+
+GitHub Issue Link: https://github.com/reXatrom/CSE341-books/issues/3
+
+
+
+
+3. Which issue took more or less time than expected? Why?
+
+Answer: Issue 3 took more time than I expected. I encountered some Git configuration problems while trying to push my changes to GitHub. My local Git configuration and remote-tracking reference became corrupted, so I had to troubleshoot and repair them before I could continue. This taught me the importance of understanding Git and keeping my project properly organized.
+
+
+
+
+
+4. Include a link to your walk-though video. (It must include your name, show your web service working at Render, explain the way your `Get Single Book` controller works, and discuss status codes.):
+
+Video link:
+
+
+
+
+
+5.a. Include a GitHub link to a file that shows how your app uses sensitive data, such as the MongoDB connection string.
+
+GitHub link: https://github.com/reXatrom/CSE341-books/blob/main/src/db/connect.js
+
+
+
+
+
+5.b. How did you store sensitive data? Why is that approach important?
+
+Answer: I stored sensitive information, such as my MongoDB connection string, in a .env file and accessed it through environment variables in my application. I also added .env to .gitignore so it would not be uploaded to GitHub. This is important because it protects database credentials and prevents unauthorized people from accessing my database.
+
+
+
+
+
+6.a. Include a GitHub link to a file that shows one other implementation decision you made.
+
+GitHub link: https://github.com/reXatrom/CSE341-books/blob/main/src/router.js
+
+
+
+
+6.b. What decision does this file show, and why did you make that choice?
+
+Answer: I decided to organize my application using the MVC (Model-View-Controller) structure and keep my API routes in a separate router file. This makes the code easier to understand, maintain, and update. It also separates the responsibilities of handling requests, retrieving data, and defining routes.
+
+
+
+
+
+7. What is one specific habit or process you will work on for next week?
+
+Answer: Next week, I want to improve how I manage my time and organize my Git workflow. I will try to start assignments earlier, make smaller commits as I complete tasks, and test my code regularly instead of waiting until the end. This will help me identify problems earlier and avoid rushing to complete my work.
