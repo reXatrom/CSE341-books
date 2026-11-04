@@ -1,0 +1,52 @@
+# Week 02 Reflection
+
+## Links
+
+1. Provide your walk-through video link. This video must demonstrate your API working at Render and follow the script in the assignment.
+Video link: https://drive.google.com/file/d/1ERrZBzhPEyD61gzBZ-PYUMK909xepyoB/view?usp=sharing
+
+
+
+2. Provide a link to your deployed Render api-docs URL:
+Render link: https://cse341-books-mhb8.onrender.com/api-docs
+
+
+
+
+3. Provide links to your Pull Requests (they should be merged at this point):
+
+Books PR: https://github.com/reXatrom/CSE341-books/pull/10
+Authors PR: https://github.com/reXatrom/CSE341-books/pull/9
+
+
+
+
+4. Provide links to your GitHub Issues (they should be closed at this point).
+
+Books Issue: https://github.com/reXatrom/CSE341-books/issues/7
+Authors Issue: https://github.com/reXatrom/CSE341-books/issues/8
+
+
+
+
+## Plan vs. Implementation
+
+5. Which part of the work took more or less time than expected? Why?
+
+Answer: Setting up the Authors collection and connecting books to their respective authors took more time than expected. I had to ensure that the author references worked correctly and that the database relationships were properly handled. Testing and fixing issues also took some extra time, but I learned a lot from the process.
+
+
+
+
+6. How did Swagger help you in your work this week?
+
+Answer: Swagger made it easier to document and test my API endpoints without having to use a separate API testing tool. I could test GET, POST, PUT, and DELETE requests, check responses, and identify errors. It also helped me confirm that my API was working correctly both locally and after deployment on Render.
+
+
+
+
+## Week 03 Improvement
+
+7. What is one specific habit or process you will apply next week?
+
+Answer: Next week, I will make it a habit to test each endpoint immediately after implementing it before moving to the next task. I will also commit my changes regularly and review my code to identify errors early. This will help me manage my time better and reduce debugging issues towards the end of the project.
